@@ -26,3 +26,5 @@ float DotResult = dot(ToPixel, LightDirection);
 
 // If DotResult is greater than ConeCosine, the pixel is inside the cone.
 float IsInsideCone = step(ConeCosine, DotResult);
+
+
